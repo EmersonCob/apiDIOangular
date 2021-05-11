@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "apiDIOangular"
+  "defaultProject": "apiDIOangular",
+  "cli": {
+    "analytics": "f6bdf720-95c8-4a81-8b57-b4638c3e1e0d"
+  }
 }
