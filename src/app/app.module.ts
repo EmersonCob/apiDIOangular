@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeModule } from './pages/home/home.module';
 import { BookmarksModule } from './pages/bookmarks/bookmarks.module';
+import { StoreModule } from '@ngrx/store';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { BookmarksModule } from './pages/bookmarks/bookmarks.module';
     AppRoutingModule,
     HomeModule,
     BookmarksModule,
+    StoreModule.forRoot({}),
   ],
   providers: [],
   bootstrap: [AppComponent]
