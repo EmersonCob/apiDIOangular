@@ -1,1 +1,16 @@
-<p>home works!</p>
+<div class="container-fluid">
+    <div class="search-container">
+        <div class="form-gruop">
+            <label>Pesquisar</label>
+            <div>
+                <input class="form-control" [FormControl]="searchControl">
+                <button class="btn btn-dark" 
+                        [disabled]="!searchControl.valid"
+                        (click)="doSearch()">Pesquisar</button>
+            </div>
+        <div class="form-gruop">
+            <label>Pesquisar com <i>autocomplete</i></label>
+        </div>
+        </div>
+    </div>
+</div>
