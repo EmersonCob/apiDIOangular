@@ -4,11 +4,14 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { HomePage } from './home.page';
 
+import { StoreModule } from '@ngrx/store';
+
 
 @NgModule({
   imports: [
     CommonModule,
     ReactiveFormsModule,
+    StoreModule.forFeature('home', {}),
   ],
   declarations: [
     HomePage,
